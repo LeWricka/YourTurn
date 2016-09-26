@@ -20,6 +20,19 @@
   <!-- Zone.js and Reflect-metadata  -->
   <script src="build/js/Reflect.js"></script>
   <script src="build/js/zone.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAm1D412QfYcMWvKcHNlyU5Bd7093er8rc",
+      authDomain: "yourturn-7be10.firebaseapp.com",
+      databaseURL: "https://yourturn-7be10.firebaseio.com",
+      storageBucket: "yourturn-7be10.appspot.com",
+    };
+    firebase.initializeApp(config);
+  </script>
+
   <!-- the bundle which is built from the app's source code -->
   <script src="build/js/app.bundle.js"></script>
 </body>

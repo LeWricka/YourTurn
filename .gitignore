@@ -1,5 +1,5 @@
-git .idea/*
-de_modules/
+.idea/*
+node_modules/
 temp/
 *.DS_Store
 *.log

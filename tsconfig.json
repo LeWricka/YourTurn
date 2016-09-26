@@ -7,12 +7,14 @@
   },
   "filesGlob": [
     "**/*.ts",
-    "!node_modules/**/*"
+    "!node_modules/**/*",
+    "modules/firebase/idex.d.ts"
   ],
   "exclude": [
     "node_modules",
     "typings/main",
-    "typings/main.d.ts"
+    "typings/main.d.ts",
+    "node_modules", "typings"
   ],
   "compileOnSave": false,
   "atom": {
