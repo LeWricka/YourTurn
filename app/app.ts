@@ -21,7 +21,7 @@ class MyApp {
                 private menu:MenuController,
                 private events:Events) {
         this.initializeApp();
-        this.eventSubscription();
+        // this.eventSubscription();
 
         // set our app's pages
         this.pages = [
