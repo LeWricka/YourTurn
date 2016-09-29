@@ -28,14 +28,13 @@ export class LoginService {
         firebase.auth().signOut();
     }
 
-    loginState = firebase.auth().onAuthStateChanged(function (_currentUser) {
-        if (_currentUser) {
-            console.log('User logged!');
-            this.events.publish('user:login');
-        } else {
-            console.log('User logged out!');
-            this.events.publish('user:logout');
-        }
-    })
+    // loginState = firebase.auth().onAuthStateChanged(function (_currentUser) {
+    //     if (_currentUser) {
+    //         console.log('User logged!');
+    //         this.events.publish('user:login');
+    //     } else {
+    //         console.log('User logged out!');
+    //         this.events.publish('user:logout');
+    //     }
+    // })
 }
-
